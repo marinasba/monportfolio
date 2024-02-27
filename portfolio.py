@@ -21,7 +21,7 @@ local_css("style/style.css")
 
 #-----LOAD ASSETS------
 lottie_girl = load_lottieurl("https://lottie.host/c7931b93-c8d5-4ac4-9212-57dd018d538f/ksZntAqqbB.json")
-img_moodle = Image.open("images/Moodle.png")
+img_moodle = Image.open("images/moodle.png")
 img_filboost = Image.open("images/filboost.png")
 img_affiche = Image.open("images/affiche.png")
 img_procreate = Image.open("images/procreate.png")
