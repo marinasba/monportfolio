@@ -40,7 +40,7 @@ img_site = Image.open("images/site.png")
 #Header
 with st.container():
     st.subheader("Bonjour, je m'appelle Marina :wave:")
-    st.title("Une candidate au master Sciences Cognitives pour l'entreprise de Lille")
+    st.title("Une candidate au master Création Numérique")
     st.write("Je suis en train d'apprendre le Python en créant ce portfolio")
     st.write("Découvrez qui je suis ainsi que mes travaux ici !")
 
@@ -54,7 +54,7 @@ with st.container():
         st.write(
             """
             Depuis petite je suis passionnée par deux choses.
-Ma première passion c'est de créer avec mes mains. Cuisiner (j'ai écrit deux livres), dessiner sur papier et sur iPad (avec Procreate), peindre, fabriquer des objets, des bijoux, des vêtements, retaper des vieux meubles, faire de l'origami, de la broderie, de la couture, des perles, de la poterie...
+Ma première passion, c'est de créer avec mes mains. Cuisiner (j'ai écrit deux livres), dessiner sur papier et sur iPad (avec Procreate), peindre, fabriquer des objets, des bijoux, des vêtements, retaper des vieux meubles, faire de la couture, des perles, de la poterie...
 Bref vous avez l'idée : je suis très manuelle et très créative.
 
 
@@ -62,7 +62,7 @@ Ma deuxième passion ? Les ordinateurs !
 J'ai grandi avec un groos bazar sous Windows XP, sans même internet ! J'adorais bidouiller, cliquer partout pour comprendre comment ça fonctionne.
 (Maintenant mes parents me prennent pour une ingénieure juste parce que j'éteins/rallume leur ordi quand il bug)
 
-Il y a quelques années je me suis mise à Instagram afin de publier mes recettes de cuisine. J'ai également travaillé comme assistante de communication et étais en charge de créer les visuels de l'entreprise. Et j'ai découvert une nouvelle forme d'art créatif : le design digital ! 
+Il y a quelques années je me suis inscrite sur Instagram afin de publier mes recettes de cuisine. J'ai également travaillé comme assistante de communication et étais en charge de créer les visuels de l'entreprise. Et j'ai découvert une nouvelle forme d'art créatif : le design digital ! 
 Réaliser un visuel esthétique, efficace, harmonieux, choisir les couleurs, les formes, ça m'a beaucoup plu.
 Puis dans la foulée j'ai découvert Notion et ça a été une révélation : j'ai passé des heures et des heures à apprendre son fonctionemment jusqu'à pouvoir créer mon propre "deuxième cerveau" sur Notion. J'ai créé des templates ayant pour but de m'aider sur différents aspects de la vie quotidienne et j'ai même pu les vendre, car ils ont énormément plu.
 
