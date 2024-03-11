@@ -36,6 +36,7 @@ img_moodlefigma = Image.open("images/moodlefigma.png")
 img_portraits = Image.open("images/portraits.png")
 img_morpion = Image.open("images/morpion.png")
 img_site = Image.open("images/site.png")
+img_bandedessinee = Image.open("images/bandedessinee.png")
 
 #Header
 with st.container():
