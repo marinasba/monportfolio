@@ -220,7 +220,18 @@ with st.container():
                  """
                  )
         st.markdown("[Voir le timelapse d'un dessin](https://youtu.be/g4fSyc2o_AQ)")
-        
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_bandedessinee)
+    with text_column:
+        st.subheader("Bande dessinée")
+        st.write(
+            """
+            J'ai réalisé une bande dessinée de 22 pages pour offrir. Chaque planche représente un souvenir vécu avec la personne. J'ai créé les cases et les bulles avec Canva. J'ai ensuite exporté le document et ai dessiné sur Procreate.
+            """
+        )
 
 
 with st.container():
