@@ -37,6 +37,10 @@ img_portraits = Image.open("images/portraits.png")
 img_morpion = Image.open("images/morpion.png")
 img_site = Image.open("images/site.png")
 img_bandedessinee = Image.open("images/bandedessinee.png")
+img_page1 = Image.open("images/page1.png")
+img_page19 = Image.open("images/page19.png")
+img_page21 = Image.open("images/page21.png")
+img_page23 = Image.open("images/page23.png")
 
 #Header
 with st.container():
@@ -234,6 +238,50 @@ with st.container():
             """
         )
 
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_page1)
+    with text_column:
+        st.write(
+            """
+            La première de couverture.
+            """
+        )
+
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_page19)
+    with text_column:
+        st.write(
+            """
+            La page 19.
+            """
+        )
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_page21)
+    with text_column:
+        st.write(
+            """
+            La page 21.
+            """
+        )
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_page23)
+    with text_column:
+        st.write(
+            """
+            La page 23.
+            """
+        )
 
 with st.container():
     image_column, text_column = st.columns((1,2))
