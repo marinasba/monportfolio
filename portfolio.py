@@ -59,17 +59,16 @@ with st.container():
         st.write(
             """
             Depuis petite je suis passionnée par deux choses.
-Ma première passion, c'est de créer avec mes mains. Cuisiner (j'ai écrit deux livres), dessiner sur papier et sur iPad (avec Procreate), peindre, fabriquer des objets, des bijoux, des vêtements, retaper des vieux meubles, faire de la couture, des perles, de la poterie...
-Bref vous avez l'idée : je suis très manuelle et très créative.
+Ma première passion, c'est de créer. Cuisiner (j'ai écrit deux livres), dessiner sur papier et sur iPad (avec Procreate), peindre, fabriquer des objets, des bijoux, des vêtements, rénover de vieux meubles, faire de la couture, des perles, de la poterie...
+Bref : je suis très manuelle et très créative.
 
 
 Ma deuxième passion ? Les ordinateurs !
-J'ai grandi avec un groos bazar sous Windows XP, sans même internet ! J'adorais bidouiller, cliquer partout pour comprendre comment ça fonctionne.
-(Maintenant mes parents me prennent pour une ingénieure juste parce que j'éteins/rallume leur ordi quand il bug)
+J'ai grandi avec vieil ordinateur sous Windows XP, sans même internet ! J'adorais explorer, cliquer partout pour comprendre comment cela fonctionne.
 
 Il y a quelques années je me suis inscrite sur Instagram afin de publier mes recettes de cuisine. J'ai également travaillé comme assistante de communication et étais en charge de créer les visuels de l'entreprise. Et j'ai découvert une nouvelle forme d'art créatif : le design digital ! 
 Réaliser un visuel esthétique, efficace, harmonieux, choisir les couleurs, les formes, ça m'a beaucoup plu.
-Puis dans la foulée j'ai découvert Notion et ça a été une révélation : j'ai passé des heures et des heures à apprendre son fonctionemment jusqu'à pouvoir créer mon propre "deuxième cerveau" sur Notion. J'ai créé des templates ayant pour but de m'aider sur différents aspects de la vie quotidienne et j'ai même pu les vendre, car ils ont énormément plu.
+Puis j'ai découvert Notion et ça a été une révélation : j'ai passé des heures et des heures à apprendre son fonctionemment jusqu'à pouvoir créer mon propre "deuxième cerveau". J'ai créé des templates ayant pour but de m'aider sur différents aspects de la vie quotidienne et j'ai même pu les vendre, car ils ont énormément plu.
 
 C'est ainsi que j'ai trouvé ce que je voulais faire professionnellement : créer des produits digitaux (applications, sites internet, e-books, mockups, templates Notion...) utiles au quotidien.
 J'adorerais vivre de mes propres produits, toujours me challenger en créant de nouvelles choses, en m'adaptant à de nouveaux besoins, de nouvelles personnes... tout en étant libre de laisser ma créativité s'exprimer !
@@ -329,7 +328,7 @@ with st.container():
     with text_column:
         st.write(
             """
-            Et la photo de portraits aussi. Ici ce sont des autoportraits (coucou :wave:)
+            Et la photo de portraits aussi. Ici ce sont des autoportraits.
             """
         )
 
