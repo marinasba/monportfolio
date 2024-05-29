@@ -46,7 +46,6 @@ img_mamabulle = Image.open("images/mamabulle.png")
 #Header
 with st.container():
     st.subheader("Bonjour, je m'appelle Marina :wave:")
-    st.title("Une candidate au master Création Numérique")
     st.write("Je suis en train d'apprendre le Python en créant ce portfolio")
     st.write("Découvrez qui je suis ainsi que mes travaux ici !")
 
