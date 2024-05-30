@@ -139,12 +139,13 @@ with st.container():
     with image_column:
         st.image(img_mamabulle)
     with text_column:
+        st.subheader("Charte graphique de Mam'a Bulle")
         st.write(
             """
             J'ai réalisé une charte graphique et le mock-up d'un site internet pour l'entreprise MamaBulle : réflexologie et accompagnement en périnatalité.
             """
         )
-        st.markdown("[Voir la charte entière](https://www.fichier-pdf.fr/2024/05/29/presentation-mama-bulle/)")
+        st.markdown("[Voir la charte entière](https://www.fichier-pdf.fr/2024/05/30/presentation-mama-bulle/)")
 
 
 with st.container():
