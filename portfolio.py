@@ -42,6 +42,7 @@ img_page19 = Image.open("images/page19.png")
 img_page21 = Image.open("images/page21.png")
 img_page23 = Image.open("images/page23.png")
 img_mamabulle = Image.open("images/mamabulle.png")
+img_theblessedclub = Image.open("images/theblessedclub.png")
 
 #Header
 with st.container():
@@ -147,6 +148,20 @@ with st.container():
         )
         st.markdown("[Voir la charte entière](https://www.fichier-pdf.fr/2024/05/30/presentation-mama-bulle/)")
 
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_theblessedclub)
+    with text_column:
+        st.subheader("Charte graphique de The Blessed Club")
+        st.write(
+            """
+            J'ai réalisé une charte graphique et le mock-up d'une appli mobile pour The Blessed Club : rencontres amoureuses et amicales entre chrétiens.
+            """
+        )
+        st.markdown("[Voir la charte entière](https://www.fichier-pdf.fr/2024/06/17/presentation-the-blessed-clb/)")
+        
 
 with st.container():
     image_column, text_column = st.columns((1,2))
