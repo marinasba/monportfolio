@@ -60,21 +60,24 @@ with st.container():
         st.write(
             """
             Depuis petite je suis passionnée par deux choses.
-Ma première passion, c'est de créer. Cuisiner (j'ai écrit deux livres), dessiner sur papier et sur iPad (avec Procreate), peindre, fabriquer des objets, des bijoux, des vêtements, rénover de vieux meubles, faire de la couture, des perles, de la poterie...
+Ma première passion, c'est de créer. Cuisiner (j'ai écrit deux livres), dessiner, peindre, fabriquer des objets, des bijoux, des vêtements, rénover de vieux meubles, faire de la couture, des perles, de la poterie...
 Bref : je suis très manuelle et très créative.
 
 
 Ma deuxième passion ? Les ordinateurs !
 J'ai grandi avec vieil ordinateur sous Windows XP, sans même internet ! J'adorais explorer, cliquer partout pour comprendre comment cela fonctionne.
 
-Il y a quelques années je me suis inscrite sur Instagram afin de publier mes recettes de cuisine. J'ai également travaillé comme assistante de communication et étais en charge de créer les visuels de l'entreprise. Et j'ai découvert une nouvelle forme d'art créatif : le design digital ! 
-Réaliser un visuel esthétique, efficace, harmonieux, choisir les couleurs, les formes, ça m'a beaucoup plu.
-Puis j'ai découvert Notion et ça a été une révélation : j'ai passé des heures et des heures à apprendre son fonctionemment jusqu'à pouvoir créer mon propre "deuxième cerveau". J'ai créé des templates ayant pour but de m'aider sur différents aspects de la vie quotidienne et j'ai même pu les vendre, car ils ont énormément plu.
+Au cours de ma vie j'ai eu de nombreuses expériences professionnelles qui m'ont permis de développer certaines compétences :
+- Je suis créatrice de contenu sur les réseaux sociaux ce qui m'a appris à communiquer, créer des visuels efficaces, créatifs, originaux et faire une veille constante. Cela m'a permis de réunir en 3 mois 50 000 abonnés.
+- J'ai été assistante de communication pour une influenceuse Fitness qui m'a chargée de certains gros projets comme la création d'une gamme de compléments alimentaires bio, made in France, le design de ses packagings, la création d'une charte grahique.
+Le fitness est un secteur où il y a beaucoup de concurrence, il était donc nécessaire de se démarquer et d'être toujours au courant des dernières tendances.
+- J'ai fait des missions freelance pour des auto-entrepreneurs qui avaient besoin d'une nouvelle identité visuelle, de mockups pour un site internet, de logo...
 
-C'est ainsi que j'ai trouvé ce que je voulais faire professionnellement : créer des produits digitaux (applications, sites internet, e-books, mockups, templates Notion...) utiles au quotidien.
-J'adorerais vivre de mes propres produits, toujours me challenger en créant de nouvelles choses, en m'adaptant à de nouveaux besoins, de nouvelles personnes... tout en étant libre de laisser ma créativité s'exprimer !
+Concernant mes études, après une licence de psychologie j'ai décidé d'intégrer un master Sciences Cognitives en alternance à l'IDMC de Nancy afin d'acquérir des compétences en informatique.
+Ma connaissance de l'Humain acquise lors de ma licence me permettra d'intégrer la technologie tout en respectant des principes éthiques. 
+Et celà bien-sûr avec ma touche de créativité pour rendre votre entreprise unique !
 
-Aujourd'hui je souhaite donc apprendre à coder avec différents langages, apprendre le design (UX et UI) afin de devenir polyvalente. 
+
             """
         )
 with right_column:
