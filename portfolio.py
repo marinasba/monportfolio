@@ -87,7 +87,7 @@ with st.container():
         st.header("Mon expérience professionnelle")
         st.write("##")
         st.write(
-"""
+            """
 - Je suis créatrice de contenu sur les réseaux sociaux ce qui m'a appris à communiquer, créer des visuels efficaces, créatifs, originaux et faire une veille constante. Cela m'a permis de réunir en 3 mois 50 000 abonnés.
 - J'ai été assistante de communication pour une influenceuse Fitness qui m'a chargée de certains gros projets comme la création d'une gamme de compléments alimentaires bio, made in France, le design de ses packagings, la création d'une charte grahique.
 Le fitness est un secteur où il y a beaucoup de concurrence, il était donc nécessaire de se démarquer et d'être toujours au courant des dernières tendances.
@@ -97,8 +97,7 @@ Concernant mes études, je suis diplômée d'une licence de psychologie et étud
 Ma connaissance de l'Humain acquise lors de ma licence me permettra d'intégrer la technologie et l'IA tout en respectant des principes éthiques. 
 Et celà bien-sûr avec ma touche de créativité pour rendre votre entreprise unique !
 
-
-            """
+"""
         )
 with right_column:
     st_lottie(lottie_girl, height=300, key="coding")
