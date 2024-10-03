@@ -78,7 +78,8 @@ Ma deuxième passion ? Les ordinateurs !
 J'ai grandi avec vieil ordinateur sous Windows XP, sans même internet ! J'adorais explorer, cliquer partout pour comprendre comment cela fonctionne.
 
 """ 
-            #expérience
+
+#expérience
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
