@@ -67,14 +67,23 @@ Bref : je suis très manuelle et très créative.
 Ma deuxième passion ? Les ordinateurs !
 J'ai grandi avec vieil ordinateur sous Windows XP, sans même internet ! J'adorais explorer, cliquer partout pour comprendre comment cela fonctionne.
 
-Au cours de ma vie j'ai eu de nombreuses expériences professionnelles qui m'ont permis de développer certaines compétences :
+""" 
+            #expérience
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("Mon expérience professionnelle")
+        st.write("##")
+        st.write(
+
 - Je suis créatrice de contenu sur les réseaux sociaux ce qui m'a appris à communiquer, créer des visuels efficaces, créatifs, originaux et faire une veille constante. Cela m'a permis de réunir en 3 mois 50 000 abonnés.
 - J'ai été assistante de communication pour une influenceuse Fitness qui m'a chargée de certains gros projets comme la création d'une gamme de compléments alimentaires bio, made in France, le design de ses packagings, la création d'une charte grahique.
 Le fitness est un secteur où il y a beaucoup de concurrence, il était donc nécessaire de se démarquer et d'être toujours au courant des dernières tendances.
 - J'ai fait des missions freelance pour des auto-entrepreneurs qui avaient besoin d'une nouvelle identité visuelle, de mockups pour un site internet, de logo...
 
-Concernant mes études, après une licence de psychologie j'ai décidé d'intégrer un master Sciences Cognitives en alternance à l'IDMC de Nancy afin d'acquérir des compétences en informatique.
-Ma connaissance de l'Humain acquise lors de ma licence me permettra d'intégrer la technologie tout en respectant des principes éthiques. 
+Concernant mes études, je suis diplômée d'une licence de psychologie et étudie actuellement en master Sciences Cognitives parcours IA à l'IDMC de Nancy.
+Ma connaissance de l'Humain acquise lors de ma licence me permettra d'intégrer la technologie et l'IA tout en respectant des principes éthiques. 
 Et celà bien-sûr avec ma touche de créativité pour rendre votre entreprise unique !
 
 
