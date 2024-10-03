@@ -43,6 +43,9 @@ img_page21 = Image.open("images/page21.png")
 img_page23 = Image.open("images/page23.png")
 img_mamabulle = Image.open("images/mamabulle.png")
 img_theblessedclub = Image.open("images/theblessedclub.png")
+img_complementsbblj = Image.open("images/complementsbblj.png")
+img_feedbblj = Image.open("images/feedbblj.png")
+img_programmebblj = Image.open("images/programmebblj.png")
 
 #Header
 with st.container():
@@ -185,10 +188,35 @@ with st.container():
             """
             Lucile Joseph est coach sportive diplômée et vends des programmes sportifs et nutritionnels en ligne sur son site internet. J'ai travaillé pour elle pendant un an et demi en tant qu'assistante de communication.
             L'une de mes premières missions a été de faire une refonte de son feed Instagram pour le rendre plus à son image. 
-            J'ai également géré un projet de création d'une gamme de compléments alimentaires (gélules) bio et made in France. En plus du contact avec le laboratoire, de l'élaboration des formules et du choix des noms, j'ai aussi travaillé sur le design des packagings.
+            
             """
         )
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_programmesbblj)
+    with text_column:
+        st.subheader("Refonte des programmes sportifs de Lucile Joseph")
+        st.write(
+            """
+            J'ai ensuite travaillé sur la refonte de ses programmes sportifs.
+            """
+        )
+
         
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_complementsbblj)
+    with text_column:
+        st.subheader("Création d'une gamme de compléments alimentaires")
+        st.write(
+            """
+           Enfin j'ai géré un projet de création d'une gamme de compléments alimentaires (gélules) bio et made in France. 
+           En plus du contact avec le laboratoire, de l'élaboration des formules et du choix des noms, j'ai aussi travaillé sur le design des packagings.
+            """
+        )
 
         
 with st.container():
