@@ -178,12 +178,29 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1,2))
     with image_column:
+        st.image(img_feedbblj)
+    with text_column:
+        st.subheader("Charte graphique de Bombshell by Lucile Joseph")
+        st.write(
+            """
+            Lucile Joseph est coach sportive diplômée et vends des programmes sportifs et nutritionnels en ligne sur son site internet. J'ai travaillé pour elle pendant un an et demi en tant qu'assistante de communication.
+            L'une de mes premières missions a été de faire une refonte de son feed Instagram pour le rendre plus à son image. 
+            J'ai également géré un projet de création d'une gamme de compléments alimentaires (gélules) bio et made in France. En plus du contact avec le laboratoire, de l'élaboration des formules et du choix des noms, j'ai aussi travaillé sur le design des packagings.
+            """
+        )
+        
+
+        
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
         st.image(img_notionhome)
     with text_column:
         st.subheader("Mon deuxième cerveau sur Notion")
         st.write(
             """
-            Voici le template que j'ai créé. Ici, la page d'accueil avec la navigation.
+            J'ai créé un espace Notion appellé "mon deuxième cerveau", afin d'organiser toutes les sphères de ma vie :
+            études, ménage, cuisine, suivi de candidatures, rendez-vous médicaux et bien d'autres ! Voici la page d'accueil avec la navigation.
             """
         )
         st.markdown("[pour voir le template entier](https://silly-trout-24d.notion.site/Bonjour-pr-nom-a6bc4328e8074461a5e6694606ecef00?pvs=4)")
@@ -195,7 +212,8 @@ with st.container():
     with text_column:
         st.write(
             """
-            Et la pyramide de Maslow.
+            Ici, c'est la pyramide de Maslow. Elle permet d'identifier les aspects de ma vie sur lesquels je suis satisfaite et ceux que je devrais améliorer pour me sentir mieux.
+            C'est un bon exemple de la combinaison de mes connaissances en psychologie et de mon envie de créer des outils technologiques.
             """
         )
 
@@ -206,7 +224,7 @@ with st.container():
     with text_column:
         st.write(
             """
-            Les révisions
+            Par ici un outil pour organiser mes révisions en vue des examens.
             """
         )
 
@@ -217,21 +235,9 @@ with st.container():
     with text_column:
         st.write(
             """
-            Et la cuisine inventaire.
+            Ici c'est la cuisine avec un inventaire : je coche les ingrédients que j'ai à la maison et il m'affiche les recettes que je peux réaliser sans avoir besoin de faire des achats !
             """
         )
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_morpion)
-    with text_column:
-        st.subheader("Un jeu de morpion en python")
-        st.write(
-            """
-            Mon tout premier projet Python fut ce portfolio et ce jeu est le deuxième.
-            """
-        )
-        st.markdown("[pour voir le code sur mon Github](https://github.com/marinanowicki/morpion/blob/9e8df71f9d7dda34512350185de2692dd60afb64/main)")
 
 
 #loisirs 
