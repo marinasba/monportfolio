@@ -46,6 +46,13 @@ img_theblessedclub = Image.open("images/theblessedclub.png")
 img_complementsbblj = Image.open("images/complementsbblj.png")
 img_feedbblj = Image.open("images/feedbblj.png")
 img_programmebblj = Image.open("images/programmebblj.png")
+img_guidevoiture  = Image.open("images/guidevoiture.png")
+img_guidevoiturepage7 = Image.open("images/guidevoiturepage7.png")
+img_chefwascute = Image.open("images/chefwascute.png")
+img_kissthechef = Image.open("images/kissthechef.png")
+img_affiches = Image.open("images/affiches.png")
+
+
 
 #Header
 with st.container():
@@ -218,6 +225,57 @@ with st.container():
             """
         )
 
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_site)
+    with text_column:
+        st.subheader("Mon site de cuisine")
+        st.write(
+            """
+            Voici mon site internet "1repas1euro". Il vient tout juste d'être refait donc il n'y a pas encore énormément de contenu dessus car je dois tout remettre à la main !
+            """
+        )
+        st.markdown("[Voir le site](https://1repas1euro.fr)")
+
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_guidevoiture)
+    with text_column:
+        st.subheader("Mes ebooks")
+        st.write(
+            """
+            J'ai créé plusieurs ebooks sur diverses thématiques, par exemple celui-ci pour apprendre à choisir une voiture d'occasion : vérifier la fiabilité du vendeur, l'extérieur et l'intérieur du véhicule, l'essai routier...
+            """
+        )
+        st.markdown("[Voir l'ebook](https://1repas1euro.fr/wp-content/uploads/2024/07/Guide-voiture-2-compresse.pdf)")
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_guidevoiturepage7)
+    with text_column:
+        st.write(
+            """
+            La page 7.
+            """
+        )
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_livres)
+    with text_column:
+        st.subheader("Mes deux livres de cuisine")
+        st.write(
+            """
+            Voici les deux livres que j'ai écrits, édités par la maison SOLAR.
+            """
+        )
+ 
         
 with st.container():
     image_column, text_column = st.columns((1,2))
@@ -342,34 +400,41 @@ with st.container():
             """
         )
 
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_site)
-    with text_column:
-        st.subheader("Mon site de cuisine")
-        st.write(
-            """
-            Voici mon site internet "1repas1euro". Il vient tout juste d'être refait donc il n'y a pas encore énormément de contenu dessus car je dois tout remettre à la main !
-            """
-        )
-        st.markdown("[Voir le site](https://1repas1euro.fr)")
-
-
-
 
 with st.container():
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_livres)
+        st.image(img_affiches)
     with text_column:
-        st.subheader("Mes deux livres de cuisine")
+        st.subheader("Dessin d'affiches")
         st.write(
             """
-            Voici les deux livres que j'ai écrits, édités par la maison SOLAR.
+            J'ai réalisé quelques affiches décoratives.
             """
         )
- 
+
+        with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_chefwascute)
+    with text_column:
+        st.write(
+            """
+            """
+        )
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_kissthechef)
+    with text_column:
+        st.write(
+            """
+
+            """
+        )
+
+
 
 with st.container():
     image_column, text_column = st.columns((1,2))
