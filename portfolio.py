@@ -195,7 +195,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_programmesbblj)
+        st.image(img_programmebblj)
     with text_column:
         st.subheader("Refonte des programmes sportifs de Lucile Joseph")
         st.write(
