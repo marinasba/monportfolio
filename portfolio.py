@@ -86,7 +86,7 @@ with st.container():
         st.header("Mon expérience professionnelle")
         st.write("##")
         st.write(
-
+"""
 - Je suis créatrice de contenu sur les réseaux sociaux ce qui m'a appris à communiquer, créer des visuels efficaces, créatifs, originaux et faire une veille constante. Cela m'a permis de réunir en 3 mois 50 000 abonnés.
 - J'ai été assistante de communication pour une influenceuse Fitness qui m'a chargée de certains gros projets comme la création d'une gamme de compléments alimentaires bio, made in France, le design de ses packagings, la création d'une charte grahique.
 Le fitness est un secteur où il y a beaucoup de concurrence, il était donc nécessaire de se démarquer et d'être toujours au courant des dernières tendances.
