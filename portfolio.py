@@ -223,7 +223,7 @@ with st.container():
         st.write(
             """
            Enfin j'ai géré un projet de création d'une gamme de compléments alimentaires (gélules) bio et made in France. 
-           En plus du contact avec le laboratoire, de l'élaboration des formules et du choix des noms, j'ai aussi travaillé sur le design des packagings.
+           En plus du contact avec le laboratoire, de l'élaboration des formules et du choix des noms, j'ai aussi travaillé sur le design des packagings en collaboration avec le Studio Pipelettes (Paris) 
             """
         )
 
